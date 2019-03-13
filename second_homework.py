@@ -110,7 +110,7 @@ for i in str:
         num_capital += 1
     elif ans_IN >= 97 and ans_IN <= 122:
         num_low += 1
-    elif ans_IN == 0:
+    elif ans_IN == 32:
         num_nul += 1
     else:
         num_other += 1
