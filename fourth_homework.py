@@ -1,35 +1,31 @@
 # '''
 # Question : 1
 # '''
-# origin_power = 1.00
-# work_counter = 0
-# for a in range(1, 366):
-#     if work_counter == 10:
-#         origin_power = origin_power * 1.01
-#         work_counter = 0
-#     elif work_counter >= 4:
-#         origin_power = origin_power * 1.01
-#     work_counter += 1
+origin_power = 1.00
+work_counter = 0
+for a in range(1, 366):
+    if 4 <= a%10 <= 9:
+        origin_power = origin_power * 1.01
 
 # print("power is " + str(origin_power))
     
 # '''
 # Question : 2
 # '''
-# import turtle  
-# import time
-# turtle.color("red", "yellow")
-# turtle.speed(10)
-# turtle.begin_fill()
-# for _ in range(50):
-#     turtle.forward(200)
-#     turtle.left(170)
-# time.sleep(1)
+import turtle  
+import time
+turtle.color("red", "yellow")
+turtle.speed(10)
+turtle.begin_fill()
+for _ in range(50):
+    turtle.forward(200)
+    turtle.left(170)
+time.sleep(1)
 
-# turtle.penup()
-# turtle.goto(-150,-120)
-# turtle.color("violet")
-# turtle.write("Done", font=('Arial', 40, 'normal'))
+turtle.penup()
+turtle.goto(-150,-120)
+turtle.color("violet")
+turtle.write("Done", font=('Arial', 40, 'normal'))
 
 '''
 Question : 3
